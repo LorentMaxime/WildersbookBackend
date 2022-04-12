@@ -1,0 +1,2 @@
+DELETE http://localhost:5000/api/wilder/delete/622b27f15dbc78cfeca999bb HTTP/1.1
+content-type: application/json

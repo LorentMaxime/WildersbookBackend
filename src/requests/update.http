@@ -1,0 +1,11 @@
+PUT http://localhost:5000/api/wilder/update/622723631412ed778be54eeb HTTP/1.1
+content-type: application/json
+
+ {
+     "name":"First Wilder",
+     "city": "San Fransisco",
+     "skills": [
+        {"title":"HTML","votes":6},
+        {"title":"React", "votes":12}
+     ]
+ }
